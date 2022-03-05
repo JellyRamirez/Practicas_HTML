@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de pedido</title>
+</head>
+<body>
+    <h1>Pasteloco </h1>
+    <br><hr>
+    <img src="./Marca pastelería.png" alt="logo pasteloco">
+    <h1>Formulario de pedido</h1>
+    <label for="Nombre">Danos tu nombre completo (Para que puedas recoger tu pedido)</label>
+    <input type="text" id="Nombre" name="Nombre" placeholder="Ejemplo: Juán Martínez">
+    <br><br>
+    <label for="Tel">Escribe tu número de celular</label>
+    <input for="Tel" id="Tel" placeholder="Ejemplo: 7821726765" maxlength="10">
+    <br><br>
+    <label for="Mail">Escribe tu correo electrónico</label>
+    <input type="email" id="Mail" name="Mail" placeholder="ejemplo@nuevo.com">
+    <br><br>
+
+    <h3>Sabores</h3>
+    <h6>*Elegir máximo 2, pastel de 2 pisos, 3 si es de 3 pisos.</h6>
+
+    <input type="checkbox" id="sabor1" name="sabor1" value="Fresa">
+    <label for="sabor1">Fresa salvaje</label><br>
+    <input type="checkbox" id="sabor2" name="sabor2" value="Chocolate">
+    <label for="sabor2">Chocolate mareador</label><br>
+    <input type="checkbox" id="sabor3" name="sabor3" value="Pistache">
+    <label for="sabor3">Pistache vomitivo</label><br>
+    <input type="checkbox" id="sabor4" name="sabor4" value="Naranja">
+    <label for="sabor4">Naranja dulce</label><br>
+    <input type="checkbox" id="sabor5" name="sabor5" value="Limón">
+    <label for="sabor5">Limón partido</label><br>
+    <input type="checkbox" id="sabor6" name="sabor6" value="LGBT">
+    <label for="sabor6">Fck out ma way when u c me am rollin with the LGBT</label><br>
+
+    <h3>Adornos</h3>
+    <label for="ado1">Elige tu primer adorno</label>
+    <select id="ado1" name="ado1">
+        <option value="freson">Fresón</option>
+        <option value="fruit">Fruit Loops</option>
+        <option value="fino">Fino Cñor</option>
+        <option value="crema">Encremado</option>
+    </select>
+    <br><br>
+    <label for="ado2">Elige tu segundo adorno</label>
+    <select id="ado2" name="ado2">
+        <option value="freson">Fresón</option>
+        <option value="fruit">Fruit Loops</option>
+        <option value="fino">Fino Cñor</option>
+        <option value="crema">Encremado</option>
+        <option value="n/a">Ninguno</option>
+    </select>
+    <br><br>
+    <label for="ado3">Elige tu tercer adorno</label>
+    <select id="ado3" name="ado3">
+        <option value="freson">Fresón</option>
+        <option value="fruit">Fruit Loops</option>
+        <option value="fino">Fino Cñor</option>
+        <option value="crema">Encremado</option>
+        <option value="n/a">Ninguno</option>
+    </select>
+    <br><br>
+
+    <h3>Especificaciones</h3>
+    <label for="espe">¿Algo más que debamos saber?</label>
+    <input type="text" id="espe" name="espe" placeholder="Ejemplo: Con azúcar masacabado">
+    <br><br>
+
+    <input type="button" id="boton1" name="boton1" value="Enviar pedido" onclick="alert('Pedido enviado. Espera notificaciones.');">
+    <br><br>
+    <h5>Calle 5 Sur, Colonia 27 de Septiembre, 72845, Puebla, México
+    </h5>
+    <hr>
+    <h5>+527812656789</h5>
+    <hr>
+    <h5> Horarios de Atención</h5>
+    <h5>Lunes - Viernes 9:00 a.m. - 10:00 p.m.</h5>
+    <h5>Sábado - Domingo 9:00 a.m. - 7:00 p.m.</h5>
+</body>
+</html>
